@@ -1,0 +1,710 @@
+.main {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 6rem; */
+  min-height: 100vh;
+}
+
+.hero {
+  /* width: 1440px;
+  height: 800px; */
+  gap: 0px;
+  opacity: 0px;
+  background-image: url("/hero.svg");
+}
+
+.navbar {
+  z-index: 100;
+  position: fixed;
+  top: 2%;
+  /* Adjust spacing from top */
+  width: fit-content;
+  /* Make the navbar width fit its content */
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  /* Add rounded corners */
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Add shadow for depth */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styles for logo */
+.logo {
+  margin-right: 20px;
+}
+
+/* Styles for navigation links */
+.navLinks {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.navLinks li {
+  margin-right: 20px;
+  cursor: pointer;
+  color: black;
+  /* Set text color to black */
+}
+
+/* Add more margin to the last element in the left section */
+.navLinks li:last-child {
+  margin-right: 50px;
+  /* Adjust as needed */
+}
+
+/* Styles for actions */
+.actions {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  /* Add margin to the right section */
+}
+
+/* Styles for Discord server link */
+.discordLink {
+  margin-right: 10px;
+  font-weight: 600;
+  /* Adjust spacing between text and button */
+  color: purple;
+}
+
+/* Styles for Join Broadcast button */
+.joinButton {
+  background-color: grey;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.abc {
+  width: 100%;
+  height: 40%;
+  bottom: 0;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.heroHeading {
+  font-size: 3rem;
+}
+
+.para {
+  font-size: 1.2rem;
+}
+
+.btn {
+  padding: 0.8rem;
+  border-radius: 0.8em;
+  background-color: #FCFCFC;
+  color: #2E3539;
+}
+
+.fader {
+  position: absolute;
+  top: 100%;
+  /* Position below the illustration image */
+  left: 0;
+  width: 100%;
+  height: 200px;
+  /* Adjust as needed */
+  background: linear-gradient(2.7deg, #0B0527 -6.69%, #181C1E 106.68%);
+}
+
+.text {
+  position: absolute;
+  bottom: 10%;
+  /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+/* New styles for the AI part */
+.ai {
+  color: yellow;
+}
+
+.additionalText {
+  position: absolute;
+  bottom: 50%;
+  /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-family: Inter;
+  font-size: 20px;
+  /* Adjust as needed */
+  font-weight: 400;
+  text-align: center;
+}
+
+.button {
+  position: absolute;
+  bottom: 10%;
+  /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+
+}
+
+.section {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Styles for the image section */
+.imageSection {
+  flex: 1;
+}
+
+/* Styles for the text section */
+.textSection {
+  flex: 1;
+  padding: 0 20px;
+  color: black;
+}
+
+.textSection h2 {
+  font-family: Figma Hand;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55.16px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: rgba(95, 68, 236, 1);
+  margin-bottom: 20px;
+}
+
+.textSection p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 31.5px;
+  text-align: left;
+  color: #6C747D;
+  margin-bottom: 20px;
+}
+
+.seeHowButton {
+  background-color: #2E3539;
+  width: Hug (155px)px;
+  height: Hug (56px)px;
+  padding: 16px 32px 16px 32px;
+  gap: 4px;
+  border-radius: 10px 10px 10px 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #E4E4E494
+}
+
+.features {
+  width: 1440px;
+  height: 1030px;
+  top: -1341px;
+  left: -9706px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featurePart {
+  /* Given layout properties */
+  width: fit-content;
+  height: fit-content;
+  padding: 8px 12px;
+  /* gap: 40px; */
+  border-radius: 12px 0 0 0;
+  /* Your image styles */
+}
+
+.featureText {
+  /* Typography */
+  color: #2E3539;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48.41px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.featureText .aiPowered {
+  /* Given typography properties */
+  color: #5F44EC;
+  font-family: Figma Hand;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55.16px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.additionalPara {
+  /* Typography */
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31.5px;
+  text-align: center;
+  /* Color */
+  color: #6C747D;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.frame {
+  width: 1086px;
+  height: 467px;
+  /* top: 441px;
+  left: 177px; */
+  /* gap: 64px; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+}
+
+/* Styles for the lists */
+.list {
+  width: 332.67px;
+  height: 226px;
+  /* For List 1 */
+  padding: 0 0 0 0;
+  gap: 16px;
+  color: black;
+}
+
+/* Styles for the list items */
+.list li {
+  list-style-type: none;
+}
+
+/* Styles for the headings */
+.heading {
+  width: 308.67px;
+  height: 50px;
+  gap: 0px;
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 25.41px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: 2E3539;
+  margin-bottom: 10 px;
+}
+
+.paragraph {
+  width: 308.67px;
+  max-height: 96px;
+  gap: 0px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: 6C747D;
+}
+
+.partnersSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.partnersText {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  letter-spacing: -0.04em;
+  text-align: right;
+  color: #826400;
+}
+
+.trustedByText {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48.41px;
+  letter-spacing: -0.04em;
+  text-align: right;
+  color: #2E3539;
+}
+
+.imgWrapper {
+  flex: 1;
+  /* Occupy remaining space */
+  text-align: center;
+}
+
+.imgWrapper img {
+  max-width: 100%;
+  /* Ensure the image doesn't exceed its container */
+  height: auto;
+  /* Maintain aspect ratio */
+  width: 966.89px;
+}
+
+.textWrapper {
+  flex: 1;
+  /* Occupy remaining space */
+
+}
+
+
+/* page.module.css */
+
+/* Styles for the FAQ section */
+.faq {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+  color: black;
+}
+
+/* Left section */
+.leftSection {
+  flex: 0 0 60%;
+  padding-right: 100px;
+}
+
+.leftSection h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #5F44EC;
+}
+
+.leftSection p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.leftSection button {
+  padding: 10px 20px;
+  background-color: #2E3539;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Right section */
+.rightSection {
+  flex: 0 0 60%;
+  padding-left: 40px;
+}
+
+/* Question */
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.question h3 {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.question span {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.question p {
+  display: none;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.section2 {
+  width: 100%;
+  height: 559px;
+  /* Adjust height as needed */
+  background: linear-gradient(94.85deg, #5C43ED 0.85%, #7D4CDC 112.11%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  /* Adjust padding as needed */
+  box-sizing: border-box;
+}
+
+/* Left side */
+.leftSide {
+  width: 40%;
+  /* Adjust width as needed */
+  color: #fff;
+}
+
+.leftSide h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  /* Add spacing between elements */
+}
+
+.leftSide p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* 
+.imageContainer {
+  display: flex;
+  margin-top: 20px;
+} */
+
+/* .imageContainer img {
+  width: 220px;
+  height: auto;
+  margin-right: 20px;
+} */
+
+/* Right side */
+.rightSide {
+  width: 50%;
+  /* Adjust width as needed */
+}
+
+.rightSide img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  /* Adjust margin-top as needed */
+}
+
+/* footer.module.css */
+
+.footer {
+  background-color: #0D0926;
+  border-top: 1px solid;
+
+  border-image-source: radial-gradient(87.19% 87.19% at 52.92% -25.96%, rgba(22, 25, 29, 0.2) 0%, rgba(22, 25, 29, 0) 100%);
+  /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+  color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.links a {
+  color: #ffffff;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.bottomText {
+  margin-top: 20px;
+}
+
+
+
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .about {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .textSection {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .features {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .frame {
+    flex-direction: column;
+    /* Stack lists vertically on smaller screens */
+  }
+
+  .list {
+    width: 100%;
+    /* Make lists fill the width of the frame */
+    margin-bottom: 20px;
+    /* Add space between stacked lists */
+  }
+}
+
+@media (max-width: 768px) {
+  .navLinks {
+    display: none;
+  }
+
+  .actions {
+    justify-content: center;
+  }
+
+  .actions a,
+  .actions button {
+    margin-right: 10px;
+  }
+
+  .illustration {
+    margin-top: 1rem;
+  }
+
+  .frame {
+    flex-direction: column;
+    /* Change flex-direction to column */
+    align-items: center;
+    /* Center-align the items */
+    text-align: center;
+    /* Center-align the text within the lists */
+  }
+
+  .list {
+    width: 25%;
+    /* Adjust the width of the list items */
+    margin-bottom: 1rem;
+    /* Add some margin between the stacked lists */
+  }
+
+  .leftSection,
+  .rightSection {
+    padding: 0 20px;
+  }
+
+  .section2 {
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    /* Stack sections vertically on smaller screens */
+  }
+
+  .imageSection {
+    flex: 0 0 100%;
+    /* Make sections occupy full width on smaller screens */
+    max-width: 100%;
+    /* Limit the width of sections to 100% on smaller screens */
+    margin-top: 165px;
+    /* Add spacing between sections */
+  }
+}
+
+@media (max-width: 768px) {
+  .partnersSection {
+    flex-direction: column;
+    /* Stack items vertically on smaller screens */
+    align-items: flex-start;
+    /* Align items to the start */
+  }
+
+  .imgWrapper,
+  .textWrapper {
+    padding-left: 0;
+    /* Remove padding */
+    text-align: center;
+    /* Center-align text on smaller screens */
+  }
+
+  .imgWrapper img {
+    margin-bottom: 1rem;
+    /* Add margin between image and text */
+  }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+
+  .actions a,
+  .actions button {
+    margin-right: 5px;
+    font-size: 0.8rem;
+  }
+
+  .logo img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .links a {
+    margin-right: 10px;
+    font-size: 0.8rem;
+  }
+
+  .bottomText p {
+    font-size: 0.8rem;
+  }
+}
